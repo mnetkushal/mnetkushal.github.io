@@ -332,7 +332,7 @@ Error generating stack: `+i.message+`
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */class Yp{constructor(t){this.apiKey=t}getGenerativeModel(t){if(!t.model)throw new bn("Must provide a model name. Example: genai.getGenerativeModel({ model: 'my-model-name' })");return new Gp(this.apiKey,t)}}const Xp="AIzaSyBWW1byjoSfmjpO29WSwpuOQC4rRWhHf3Q",qp=new Yp(Xp),Zp=`You are a helpful customer support AI assistant for an e-commerce platform. 
+ */class Yp{constructor(t){this.apiKey=t}getGenerativeModel(t){if(!t.model)throw new bn("Must provide a model name. Example: genai.getGenerativeModel({ model: 'my-model-name' })");return new Gp(this.apiKey,t)}}const Xp="",qp=new Yp(Xp),Zp=`You are a helpful customer support AI assistant for an e-commerce platform. 
 Your name is "Support Bot".
 Keep responses concise, friendly, and helpful (2-3 sentences max).
 Use emojis sparingly to seem friendly.
